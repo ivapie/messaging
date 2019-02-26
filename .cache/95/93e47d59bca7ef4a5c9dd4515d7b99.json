@@ -1,0 +1,1 @@
+{"id":"manifest.json","dependencies":[{"name":"/Users/ivanpiedra/Desktop/test/package.json","includedInParent":true,"mtime":1550786109663}],"generated":{"js":"module.exports = {\n  \"gcm_sender_id\": \"849160282804\"\n};"},"hash":"33dbd04c92bc4e637f928c3db3816ebe","cacheData":{"env":{}}}
