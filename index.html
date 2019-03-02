@@ -6,11 +6,16 @@
   <link rel="manifest" href="./manifest.json">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-signin-client_id" content="849160282804-r6e52kgei3jh6hor6c9ookqme3336t0p.apps.googleusercontent.com">
+  <meta name="google-signin-client_id" content="855739992361-tbbtel9bsa8jp80p21ev2ids81tg7rcb.apps.googleusercontent.com">
 
-  
+  <!--
+    VEmhrfypIHF1dE1CJExWJwuy
+  -->
 </head>
 <body>
+
+<div id="token"></div>
+
   <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
   <script>
@@ -28,22 +33,14 @@
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
       }
-    </script>
-
-
-  <script> 
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('sw-cached-site.js', function() {
-        navigator.serviceWorker.register('firebase-messaging-sw.js', {
-          scope: '/',
-        });
-      });
-    } 
-    window.process = { env: { NODE_ENV: 'production' } };
   </script>
+
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 
+  <!--
   <script src="./index.js"></script>
+
+  -->
 
 </body>
 </html>
